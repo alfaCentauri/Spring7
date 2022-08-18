@@ -6,7 +6,7 @@ import org.springframework.beans.*;
 public class UsoAnotaciones {
 
 	public static void main(String[] args) {
-		System.out.println("Demostración del uso de anotaciones con Configuraton en Spring.");
+		System.out.println("Demostración del uso de anotaciones con archivo de Configuración en Spring.");
 		try {
 			AnnotationConfigApplicationContext contexto = new AnnotationConfigApplicationContext(EmpleadosConfig.class);
 			Empleados Pedro = contexto.getBean("comercialExperimentado", Empleados.class);
